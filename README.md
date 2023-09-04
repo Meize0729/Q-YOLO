@@ -1,6 +1,11 @@
 # **Q-YOLO: Efficient Inference for Real-time Object Detection**
 This is the official implementation of the arxiv paper "Q-YOLO: Efficient Inference for Real-time Object Detection". [arxiv](http://arxiv.org/abs/2307.04816)
 
+
+## ***<font color="red">Tips</font>***
+
+We apologize for any inconvenience caused, but due to certain business reasons, we are temporarily unable to release the code. However, if you have any related questions, you are free to contact the email: wmz20000729@buaa.edu.cn
+
 ## ***Introduction***
 Q-YOLO is a quantization solution specially designed for the YOLO series. We utilize the PTQ quantization approach and provide a code library that allows for easy export of ONNX models for subsequent deployment.
 
@@ -12,7 +17,7 @@ Q-YOLO is a quantization solution specially designed for the YOLO series. We uti
   </a>
 </div>
 
-***
+
 ## ***Notice***
 A Unilateral Histogram-based (UH) activation quantization method is proposed to leverage histogram analysis to find the maximum truncation values, which can effectively minimize the MSE quantization error.
 <div align="center">
@@ -23,7 +28,7 @@ A Unilateral Histogram-based (UH) activation quantization method is proposed to 
 
 Here we have only provided the code for ***YOLOv5***, but Q-YOLO can be easily integrated into any YOLO project.
 
-***
+
 ## ***Installation and Get Started***
 
 Note that this repository is based on the [Yolov5-6.2](https://github.com/ultralytics/yolov5/tree/v6.2). Please follow the following steps for installation.
@@ -33,7 +38,7 @@ git clone https://github.com/Meize0729/Q-YOLO.git
 cd Q-YOLO
 pip install -r requirements.txt
 ```
-***
+
 ## ***How to use Q-YOLO***
 Firstly, you should modify the dataset path in [coco.yaml](./data/coco.yaml) under the "data" directory to the path where you have saved the dataset.
 
@@ -71,5 +76,5 @@ python ptq_main.py --weights_ptq='your .pt path'
   </a>
 </div>
 
-***
+
 I especially want to thank the previous work of [FQVIT](https://github.com/megvii-research/FQ-ViT) and [TensorRT](https://github.com/NVIDIA/TensorRT/tree/release/8.6/tools/pytorch-quantization), as my own work may seem somewhat inadequate. I hope for your understanding and forgiveness.# Q-YOLO
