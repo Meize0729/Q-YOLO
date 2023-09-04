@@ -2,7 +2,7 @@
 This is the official implementation of the arxiv paper "Q-YOLO: Efficient Inference for Real-time Object Detection". [arxiv](http://arxiv.org/abs/2307.04816)
 
 
-## ***<font color="red">Tips</font>***
+## ***<font color="red">Tips!!!</font>***
 
 We apologize for any inconvenience caused, but due to certain business reasons, we are temporarily unable to release the code. However, if you have any related questions, you are free to contact the email: wmz20000729@buaa.edu.cn
 
